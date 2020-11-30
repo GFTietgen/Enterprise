@@ -12,5 +12,8 @@ namespace Application.Domain
     {
         public int ID { get; set; }
         public string Descricao { get; set; }
+        public string dtCadastro { get; set; }
+        public string dtAlteracao { get; set; }
+        public string dtInativacao { get; set; }
     }
 }
